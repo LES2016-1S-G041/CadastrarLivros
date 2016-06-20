@@ -6,8 +6,12 @@ Este projeto cadastra, altera e exclui registros de livros.
 
 NOMES DOS INTEGRANTES E R.A.:
 
-- Igor Henrique da Silva  0030481221029
-- Jessé Marques           0030481411020
+- Igor Henrique da Silva        0030481221029
+- Jessé Marques de Souza        0030481411020
+- Thiago Oliveira Zocca         0030481411059
+- Felipe Cesar Andrino Nogueira 0030481411012
+- Caio Siqueira                 0030481411008
+- Ricardo Humaytá Tiburcio      0030481311034
 
 Alterado pelo prof. Antonio Sergio Bernardo na Faculdade de Tecnologia de Sorocaba - Fatec
 
