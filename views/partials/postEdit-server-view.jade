@@ -1,0 +1,19 @@
+.container-fluid
+  .col-sm-2
+  .col-sm-8
+    h2 Editar Livro
+    .form-group
+      label(for='title') Titulo:
+      input(ng-model='form.title', name='title')
+    .form-group
+      label(for='autor') Autor:
+      input(ng-model='form.autor', name='autor')
+    .form-group
+      label(for='valor') Valor:
+      input(ng-model='form.valor', name='valor')
+    label(for='descricao') Descrição:
+    .form-group
+      textarea(ng-model='form.text', cols='100', rows='15')
+      p
+      button(ng-click='postEdit()').btn.btn-primary Editar Livro
+  .col-sm-2

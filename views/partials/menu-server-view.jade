@@ -1,0 +1,15 @@
+.container-fluid
+  .col-sm-2
+  .col-sm-8
+    p Você tem {{posts.length}} livros cadastrados!
+    div(ng-repeat='post in posts').card-livro
+      section
+        h3.card-titulo {{post.title}}
+        div.card-botao {{post.text}}
+        div.card-botaoo
+          a(href='/postRead-server-view/{{post.id}}') [+] Mais
+          |  -
+          a(href='/postEdit-server-view/{{post.id}}') Editar
+          |  -
+          a(href='/postDelete-server-view/{{post.id}}') Deletar
+  .col-sm-2

@@ -1,0 +1,66 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+.textoo{
+  text-align: center;
+  margin-top: 100px;
+}
+.textooo{
+  text-align: center;
+}
+.textooo button{
+  margin: 5px;
+}
+.card-livro{
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #999999;
+  border-width: 1px;
+  padding: 5px;
+  margin: 10px;
+  display: inline-table;
+  width: 200px;
+  height: 190px;
+
+}
+.card-titulo{
+  text-align: center;
+  margin-top: 2px;
+}
+.card-botao{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 50px;
+  text-align: center;
+}
+.card-botaoo{
+  margin-top: 20px;
+  text-align: center;
+}

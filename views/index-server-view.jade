@@ -1,0 +1,24 @@
+extends layout-server-view
+
+block body
+
+    nav.navbar.navbar-default
+      .container-fluid
+        .col-sm-2
+        .col-sm-8
+          ul.nav.navbar-nav
+            li.sidebar-brand
+              p.navbar-text Livros
+            li
+              a(href='/') Inicio
+            li
+              a(href='/postAdd-server-view') Adicionar Livro
+          .col-sm-2
+    div(ng-view)
+
+    script(src='js/lib/angular/angular.js')
+    script(src='js/app-client-route.js')
+    script(src='js/services.js')
+    script(src='js/controllers/app-client-ctrl.js')
+    script(src='js/filters.js')
+    script(src='js/directives.js')
